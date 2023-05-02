@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Formik, Field, Form } from 'formik';
+import { formik, Field, Form } from 'formik';
 
 const Basic = () => (
   <div>
