@@ -5,7 +5,7 @@ import { Formik, Field, Form } from 'formik';
 const Basic = () => (
   <div>
     <h1>Sign Up</h1>
-    <Formik
+    <formik
       initialValues={{
         firstName: '',
         lastName: '',
@@ -32,7 +32,7 @@ const Basic = () => (
         />
         <button type="submit">Submit</button>
       </Form>
-    </Formik>
+    </formik>
   </div>
 );
 
